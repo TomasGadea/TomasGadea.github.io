@@ -153,8 +153,8 @@
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 2;
-		letter-spacing: 0.2em;
-		text-transform: uppercase;
+		/*letter-spacing: 0.2em;*/
+		/* text-transform: uppercase; */
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -204,6 +204,12 @@
 
 	p {
 		margin: 0 0 1.5em 0;
+		font-size: 1.5em;
+		color: #A9A9A9;
+		font-family: 'Bungee Hairline', cursive;
+		-webkit-text-stroke: 2px;
+      	/*-webkit-text-fill-color:transparent;*/
+		// font-family: 'Bungee Hairline', cursive;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -219,8 +225,10 @@
 
 	h1 {
 		font-size: 1.85em;
-		letter-spacing: 0.22em;
+		/*letter-spacing: 0.22em;*/
 		margin: 0 0 0.525em 0;
+		font-family: 'Bungee', cursive;
+		color: #282828;
 	}
 
 	h2 {
@@ -748,7 +756,7 @@
 				width: 3.75em;
 				height: 3.75em;
 				border-radius: 100%;
-				border: solid 1px #c8cccf;
+				border: solid 1px #c8cccf;  /* borde redondo logos */
 				line-height: 3.75em;
 				overflow: hidden;
 				text-align: center;
@@ -775,7 +783,7 @@
 				}
 
 				ul.icons li a:hover:before {
-					text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+					text-shadow: 1.25px 0px 0px #282828, -1.25px 0px 0px #282828, 0px 1.25px 0px #282828, 0px -1.25px 0px #282828;
 				}
 
 				ul.icons li a:before {
@@ -791,7 +799,7 @@
 				}
 
 				ul.icons li a:hover {
-					border-color: #ff7496;
+					border-color: #282828;  /*color seleccion borde linkedin*/
 				}
 
 		@media screen and (max-width: 480px) {
